@@ -1,0 +1,13 @@
+var x = prompt('Введите число', '');
+for (i=0; i <= +x; i++){
+	if (i%3 == 0) {
+		console.log(i)
+		}
+	}
+
+var n = 51;
+while (n > 50){
+	n = prompt('Введите порядковый номер числа Фибоначчи', '');
+} 
+x = (Math.pow(((1 + Math.sqrt(5)) / 2), +n) - Math.pow(((1 - Math.sqrt(5)) / 2), +n)) / Math.sqrt(5);
+console.log(x)
